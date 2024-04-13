@@ -69,5 +69,5 @@ on_install() {
 }
 
 set_permissions() {
-  set_perm_recursive $MODPATH 0 0 0755 06440
+  set_perm_recursive $MODPATH 0 0 0755 0644
 }
